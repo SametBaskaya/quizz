@@ -1,0 +1,161 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.question-section {
+    margin-bottom: 20px;
+}
+
+.question-count {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.answer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.answer-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer-button:hover {
+    background-color: #0056b3;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev-button,
+.next-button,
+.quit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prev-button {
+    background-color: #f67308;
+    color: white;
+}
+
+.next-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.quit-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.prev-button:hover {
+    background-color: #5a6268;
+}
+
+.next-button:hover {
+    background-color: #218838;
+}
+
+.quit-button:hover {
+    background-color: #c82333;
+}
+
+.score-section {
+    margin-top: 20px;
+}
+
+.score-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.score-table th,
+.score-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.score-table th {
+    background-color: #f4f4f4;
+}
+
+.score-table td {
+    font-size: 18px;
+}
+
+.start-button {
+    background-color: #007bff; /* Varsayılan mavi renk */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-button:disabled {
+    background-color: grey; /* Pasifken gri renk */
+    cursor: not-allowed; /* İmleç tipi değişir */
+}
+
+.prev-button:disabled,
+.next-button:disabled,
+.quit-button:disabled {
+    background-color: grey; /* Pasifken gri renk */
+    cursor: not-allowed; /* İmleç tipi değişir */
+}
+.score-explanation-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.score-explanation-table th,
+.score-explanation-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.score-explanation-table th {
+    background-color: #f4f4f4;
+}
+
+.score-explanation-table td {
+    font-size: 18px;
+}
+.question-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
